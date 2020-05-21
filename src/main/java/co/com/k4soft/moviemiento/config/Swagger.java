@@ -27,7 +27,7 @@ public class Swagger {
     }
 
     private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("Micro sercio movimiento")
+        return new ApiInfoBuilder().title("Microservicio movimiento")
                 .description("Servicios realizar movimientos del parqueadero")
                 .contact(new Contact("SW 3", "www.k4soft.com", "info@k4soft.com"))
                 .license("Apache 2.0")
